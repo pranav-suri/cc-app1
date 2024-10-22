@@ -1,0 +1,6 @@
+services:
+  server:
+    build: .
+    image: cc-app1-frontend
+    ports:
+      - "3000:3000"

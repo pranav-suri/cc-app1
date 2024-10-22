@@ -1,9 +1,11 @@
 services:
   server:
     build: ./server
+    image: cc-app1-server
     ports:
       - "3000:3000"
   frontend:
     build: ./frontend
+    image: cc-app1-frontend
     ports:
       - "5173:5173"
