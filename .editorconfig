@@ -1,0 +1,10 @@
+[*]
+indent_size = 2
+end_of_line = lf
+insert_final_newline = true
+
+[server/**/*.ts]
+indent_size = 4
+
+[server/**/*.js]
+indent_size = 4
